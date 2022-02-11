@@ -1,0 +1,48 @@
+2022-02-11 00:34:46.038 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-11 00:34:46.064 -06:00 [INF] Request starting HTTP/2.0 GET https://localhost:44389/swagger/index.html  
+2022-02-11 00:34:46.087 -06:00 [INF] Hosting environment: Development
+2022-02-11 00:34:46.090 -06:00 [INF] Content root path: C:\Users\raulf\source\repos\InvictaInternalAPI
+2022-02-11 00:34:46.141 -06:00 [INF] Request finished in 80.2249ms 200 text/html;charset=utf-8
+2022-02-11 00:34:46.258 -06:00 [INF] Request starting HTTP/2.0 GET https://localhost:44389/swagger/v1/swagger.json  
+2022-02-11 00:34:46.345 -06:00 [INF] Request finished in 85.4032ms 200 application/json;charset=utf-8
+2022-02-11 00:34:58.333 -06:00 [INF] Request starting HTTP/2.0 GET https://localhost:44389/api/Supplier/supplierId?supplierId=6  
+2022-02-11 00:34:58.358 -06:00 [INF] Executing endpoint 'InvictaInternalAPI.Controllers.SupplierController.GetOrderstoXlsFile (InvictaInternalAPI)'
+2022-02-11 00:34:58.386 -06:00 [INF] Route matched with {action = "GetOrderstoXlsFile", controller = "Supplier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrderstoXlsFile(Int32) on controller InvictaInternalAPI.Controllers.SupplierController (InvictaInternalAPI).
+2022-02-11 00:34:58.498 -06:00 [INF] Executing endpoint GetOrderstoXlsFile/SupplierController
+2022-02-11 00:34:58.500 -06:00 [INF] Extracting information
+2022-02-11 00:34:58.501 -06:00 [ERR] Invalid supplier: 6
+2022-02-11 00:35:00.320 -06:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`1[[<>f__AnonymousType0`3[[System.Int32, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]][], InvictaInternalAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-11 00:35:00.330 -06:00 [INF] Executed action InvictaInternalAPI.Controllers.SupplierController.GetOrderstoXlsFile (InvictaInternalAPI) in 1935.657ms
+2022-02-11 00:35:00.332 -06:00 [INF] Executed endpoint 'InvictaInternalAPI.Controllers.SupplierController.GetOrderstoXlsFile (InvictaInternalAPI)'
+2022-02-11 00:35:00.334 -06:00 [INF] Request finished in 2001.3326ms 409 application/json; charset=utf-8
+2022-02-11 00:46:06.653 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-11 00:46:06.678 -06:00 [INF] Request starting HTTP/2.0 GET https://localhost:44389/swagger/index.html  
+2022-02-11 00:46:06.699 -06:00 [INF] Hosting environment: Development
+2022-02-11 00:46:06.700 -06:00 [INF] Content root path: C:\Users\raulf\source\repos\InvictaInternalAPI
+2022-02-11 00:46:06.755 -06:00 [INF] Request finished in 78.7922ms 200 text/html;charset=utf-8
+2022-02-11 00:46:06.874 -06:00 [INF] Request starting HTTP/2.0 GET https://localhost:44389/swagger/v1/swagger.json  
+2022-02-11 00:46:06.950 -06:00 [INF] Request finished in 74.0687ms 200 application/json;charset=utf-8
+2022-02-11 01:30:19.917 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-11 01:30:19.971 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.html - -
+2022-02-11 01:30:19.992 -06:00 [INF] Hosting environment: Development
+2022-02-11 01:30:19.993 -06:00 [INF] Content root path: C:\Users\raulf\source\repos\InvictaInternalAPI
+2022-02-11 01:30:20.145 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.html - - - 200 - text/html;charset=utf-8 178.5082ms
+2022-02-11 01:30:20.312 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - -
+2022-02-11 01:30:20.439 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.4518ms
+2022-02-11 01:34:41.419 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-11 01:34:41.452 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/index.html - -
+2022-02-11 01:34:41.470 -06:00 [INF] Hosting environment: Development
+2022-02-11 01:34:41.471 -06:00 [INF] Content root path: C:\Users\raulf\source\repos\InvictaInternalAPI
+2022-02-11 01:34:41.586 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/index.html - - - 200 - text/html;charset=utf-8 135.8611ms
+2022-02-11 01:34:41.707 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - -
+2022-02-11 01:34:41.792 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44389/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.9002ms
+2022-02-11 01:34:48.086 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44389/api/Supplier/supplierId?supplierId=7 - -
+2022-02-11 01:34:48.120 -06:00 [INF] Executing endpoint 'InvictaInternalAPI.Controllers.SupplierController.GetOrderstoXlsFile (InvictaInternalAPI)'
+2022-02-11 01:34:48.154 -06:00 [INF] Route matched with {action = "GetOrderstoXlsFile", controller = "Supplier"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetOrderstoXlsFile(Int32) on controller InvictaInternalAPI.Controllers.SupplierController (InvictaInternalAPI).
+2022-02-11 01:34:48.325 -06:00 [INF] Executing endpoint GetOrderstoXlsFile/SupplierController
+2022-02-11 01:34:48.327 -06:00 [INF] Extracting information
+2022-02-11 01:34:49.203 -06:00 [INF] Extraction completed
+2022-02-11 01:34:49.209 -06:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[InvictaInternalAPI.Entities.Order, InvictaInternalAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-11 01:34:49.226 -06:00 [INF] Executed action InvictaInternalAPI.Controllers.SupplierController.GetOrderstoXlsFile (InvictaInternalAPI) in 1067.328ms
+2022-02-11 01:34:49.229 -06:00 [INF] Executed endpoint 'InvictaInternalAPI.Controllers.SupplierController.GetOrderstoXlsFile (InvictaInternalAPI)'
+2022-02-11 01:34:49.236 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44389/api/Supplier/supplierId?supplierId=7 - - - 200 - application/json;+charset=utf-8 1149.5949ms
